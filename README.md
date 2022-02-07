@@ -53,7 +53,7 @@ Vue.use(Vuetify)
 
 ## Class-styled components
 
-There is no special reason to use Class-styled components, Since I'm used to ReactJS, I feel more confortable with this sytax. I also like to use decorators.
+There is no special reason to use Class-styled components. Since I'm used to ReactJS, I feel more confortable with this sytax. I also like to use decorators.
 
 ## useSWRV
 
