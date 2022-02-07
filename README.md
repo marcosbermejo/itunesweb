@@ -31,7 +31,7 @@ This project does not use any kind of Routing because it was not necessary for t
 
 ## Usage of Vuetify
 
-In my opinion, its highly recommended to use a component library because it saves a lot of development time. Additionally, those components are highly tested by the community and fully customizables.
+In my opinion, its highly recommended to use a component library because it saves a lot of development time. Additionally, those components are continuously tested by the community and fully customizables.
 
 Since I'm used to work with Material design, I decided to use [Vuetify](https://vuetifyjs.com/en/).
 
@@ -63,7 +63,7 @@ This library allowed me to delete tons of lines of code and forget about Redux
 
 [SWRV](https://github.com/Kong/swrv) is the implementation for VueJS of the stale-while-revalidate pattern
 
-I decided to use it instead any other Flux inspired library like Vuex
+I decided to use it instead of any other Flux inspired library like Vuex
 
 ```ts
 // ./src/components/AlbumList.vue
@@ -71,7 +71,7 @@ const url = `http://localhost:3000/music/${artist}`
 const { data, error, isValidating } = useSWRV<Album[]>(url, undefined, { revalidateOnFocus: false })
 ```
 
-To make SWRV work, is required to use Composition API plugin for Vue 2
+To make SWRV work, it is required to use Composition API plugin for Vue 2
 
 ```js
 "@vue/composition-api": "^1.4.5",
